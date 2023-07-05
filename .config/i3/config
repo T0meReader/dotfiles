@@ -171,6 +171,9 @@ bindsym $mod+Shift+0    move container to workspace  $ws10
 # keybindings for different actions: #
 ######################################
 
+# Toggle Touchpad (my additon 2023-07-05)
+bindsym F6 exec ~/.local/bin/toggletouchpad.sh
+
 # start a terminal
 bindsym $mod+Return exec xfce4-terminal
 
